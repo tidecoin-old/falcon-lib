@@ -9,10 +9,6 @@ Tidecoin's Falcon-512 c lib.
 #include<strings.h>
 #include"api.h"
 
-#include<stdio.h>
-#include<strings.h>
-#include"api.h"
-
 main()
 {
 
