@@ -1,15 +1,15 @@
-Tidecoin's Falcon-512 c lib.
+Tidecoin's Falcon-512 c lib.  
 
-1. generate lib:
- make 
+1. generate lib:  
+ make  
  
-2. use in your code as following:
+2. use in your code as following:  
 
-#include<stdio.h>
-#include<strings.h>
-#include"api.h"
+#include<stdio.h>  
+#include<strings.h>  
+#include"api.h"  
 
-main()
+main()  
 {
 
     unsigned char sk[2048];
@@ -40,6 +40,6 @@ main()
     }
 }
 
-3. test:
-gcc test.c -L . -lfalcon-512_clean
+3. test:  
+gcc test.c -L . -lfalcon-512_clean  
 ./a.out
