@@ -1,10 +1,7 @@
 Tidecoin's Falcon-512 c lib.  
-
 1. generate lib:  
  make  
- 
 2. use in your code as following:  
-
 #include<stdio.h>  
 #include<strings.h>  
 #include"api.h"  
@@ -38,8 +35,7 @@ main()
     if(r==0){
         printf("Signature verification is ok.\n");
     }
-}
-
+}  
 3. test:  
 gcc test.c -L . -lfalcon-512_clean  
 ./a.out
